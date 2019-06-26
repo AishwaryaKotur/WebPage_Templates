@@ -1,0 +1,102 @@
+header
+{
+	color: white;
+	background: -webkit-linear-gradient(#00b7ea 50%,#A2E428 90%);
+    background-image: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+    text-align: center;
+    padding: 60px;
+}
+#a1
+{
+	font-weight: bold;
+	text-decoration: none;
+	margin: 5%;
+	background-color: white;
+	opacity: 0.5;
+	border: solid 5px white;
+	height: 5px;
+	width: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 46px;
+	padding-right: 46px;
+	border-radius: 4px;
+}
+#a1:active
+{
+	background-color: white;
+}
+#a1:hover
+{
+	background: white;
+    opacity: 1.0;
+}
+#a1:focus
+{
+	background-color: white;
+	opacity: 1.0;
+}
+img
+{
+	height: 10%;
+	width: 15%;
+	display: block;
+	border: solid 2px black;
+	margin: 20px;
+}
+.s2
+{
+	height: 150%;
+	background-color: olive;
+	background-size: 150px 160px;
+	padding-top: 20px;
+	padding-left: 6px;
+	padding-right: 15px;
+	padding-bottom: 200px;
+}
+.s1
+{
+	text-align: left 50px;
+	float: right;
+	width: 1080px;
+	height: 1000px;
+	background-color: white;
+	padding-left: 10px;
+}
+.secs1
+{
+	text-decoration: none;
+	color: purple;
+}
+tr
+{
+	margin: 5px;
+	padding-right: 90px;
+	background-color: lightgrey;
+}
+td
+{
+	margin: 5px;
+	padding-right: 90px;
+    background: -webkit-linear-gradient(top, rgba(255,255,255,7) 0%,rgba(55,55,255,0) 100%);
+    line-height: 40px;
+    opacity: 0.5;
+    font-weight: bold;
+}
+th
+{
+	padding-right: 215px;
+	text-decoration: underline;
+	background: -webkit-linear-gradient(top, rgba(54,10,13,1) 5%,olive 96%,olive 20%,olive 3%,olive 6%,olive 7%,olive 10%);
+	border:inset 2px yellow;
+}
+td:hover
+{
+	background: -webkit-linear-gradient(top, rgba(255,255,255,7) 0%,rgba(55,55,255,0) 100%);
+	font-weight: bolder;
+	opacity: 1.5;
+	color: black;
+	text-shadow: 2px 2px 4px olive;
+}
